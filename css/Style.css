@@ -10,3 +10,7 @@ h2 { text-align align: center;
 
 }
 
+.validationError { color: red;
+                   font-weight: bold;
+
+}
