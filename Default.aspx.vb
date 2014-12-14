@@ -51,7 +51,7 @@ Partial Class _Default
         tb_Name.Visible = False
         rdo_Male.Visible = False
         rdo_Female.Visible = False
-        System.Web.UI.WebControls.Calendar.Visible = False
+        Calendar1.Visible = False
         tb_Salary.Visible = False
         btn_Submit.Visible = False
 
@@ -66,7 +66,7 @@ Partial Class _Default
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
 
-        System.Web.UI.WebControls.Calendar.VisibleDate = Today
+        Calendar1.VisibleDate = Today
 
         tb_Name.Focus()
 
@@ -91,7 +91,7 @@ Partial Class _Default
         tb_Name.Visible = True
         rdo_Male.Visible = True
         rdo_Female.Visible = True
-        System.Web.UI.WebControls.Calendar.Visible = True
+        Calendar1.Visible = True
         tb_Salary.Visible = True
         btn_Submit.Visible = True
 
@@ -116,8 +116,8 @@ Partial Class _Default
         tb_Salary.Text = String.Empty
         rdo_Male.Checked = False
         rdo_Female.Checked = False
-        System.Web.UI.WebControls.Calendar.SelectedDate = Today
-        System.Web.UI.WebControls.Calendar.VisibleDate = Today
+        Calendar1.SelectedDate = Today
+        Calendar1.VisibleDate = Today
 
 
     End Sub

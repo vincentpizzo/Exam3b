@@ -13,7 +13,9 @@
         <h1>Welcome to MSCI:3300</h1>
         <h2>Software Design and Development</h2>
         <p>&nbsp;</p>
-        <p>Please select your language:</p>
+        <p>
+            <asp:Label ID="lbl_LangSelect" runat="server" Text="Please Select your Language"></asp:Label>
+        </p>
         <div class="radio">  
         <p>
                 
@@ -25,19 +27,23 @@
                 </asp:DropDownList>
                 
         </p></div>
-        <div class="stuff"><p>My name is:
-            <asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
+        <div class="stuff"><p>
+            <asp:Label ID="lbl_MyNameIs" runat="server" Text="My Name is:"></asp:Label>
+&nbsp;<asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RFV1" runat="server" ErrorMessage="Please enter your name" CssClass="validationError" ControlToValidate="tb_Name"></asp:RequiredFieldValidator>
         </p>
-        <p>I am:<asp:RadioButton ID="rdo_Male" runat="server" Text="Male" />
+        <p>
+            <asp:Label ID="lbl_IAm" runat="server" Text="I am:"></asp:Label>
+            <asp:RadioButton ID="rdo_Male" runat="server" Text="Male" />
             <asp:RadioButton ID="rdo_Female" runat="server" Text="Female" />
         </p>
         <p>I plan to graduate on:</p>
         <p>
             <asp:Calendar ID="Calendar1" runat="server" align="center"></asp:Calendar>
         </p>
-        <p>When I graduate, I hope to earn:
-            <asp:TextBox ID="tb_Salary" runat="server">Enter Salary</asp:TextBox>
+        <p>
+            <asp:Label ID="lbl_Graduate" runat="server" Text="When I graduate, I hope to make:"></asp:Label>
+&nbsp;<asp:TextBox ID="tb_Salary" runat="server">Enter Salary</asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter your desired salary" CssClass="validationError" ControlToValidate="tb_Salary"></asp:RequiredFieldValidator>
 &nbsp;&nbsp;&nbsp;&nbsp; </p>
         <p>
