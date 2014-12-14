@@ -14,31 +14,34 @@
         <h2>Software Design and Development</h2>
         <p>&nbsp;</p>
         <p>Please select your language:</p>
+        <div class="radio">  
         <p>
-            <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                
+                <asp:RadioButtonList ID="RadioButtonList1" runat="server" style="list-style=center" align="center">
                 <asp:ListItem>Arabic</asp:ListItem>
                 <asp:ListItem>Chinese</asp:ListItem>
                 <asp:ListItem>English</asp:ListItem>
                 <asp:ListItem>Spanish</asp:ListItem>
             </asp:RadioButtonList>
-        </p>
-        <p>My name is:
+                
+        </p></div>
+        <div class="stuff"><p>My name is:
             <asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
         </p>
-        <p>I am:<asp:RadioButtonList ID="RadioButtonList2" runat="server" RepeatDirection="Horizontal">
+        <p>I am:<asp:RadioButtonList ID="RadioButtonList2" runat="server" RepeatDirection="Horizontal" align="center">
             <asp:ListItem>Male</asp:ListItem>
             <asp:ListItem>Female</asp:ListItem>
             </asp:RadioButtonList>
         </p>
         <p>I plan to graduate on:</p>
         <p>
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+            <asp:Calendar ID="Calendar1" runat="server" align="center"></asp:Calendar>
         </p>
         <p>When I graduate, I hope to earn:
             <asp:TextBox ID="tb_Salary" runat="server">Enter Salary</asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp; </p>
         <p>
-            <asp:Button ID="btn_Submit" runat="server" Text="Submit" />
+            <asp:Button ID="btn_Submit" runat="server" Text="Submit" align="center"/>
         </p>
 
     </div>
