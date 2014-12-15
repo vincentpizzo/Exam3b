@@ -117,58 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lbl_a" xml:space="preserve">
+  <data name="lbl_a.Text" xml:space="preserve">
     <value>Por favor, elige tu idioma:</value>
   </data>
-  <data name="lbl_b" xml:space="preserve">
+  <data name="lbl_b.Text" xml:space="preserve">
     <value>Mi nombre es:</value>
   </data>
-  <data name="lbl_c" xml:space="preserve">
+  <data name="lbl_c.Text" xml:space="preserve">
     <value>Yo soy:</value>
   </data>
-  <data name="lbl_d" xml:space="preserve">
+  <data name="lbl_d.Text" xml:space="preserve">
     <value>Tengo la intención de graduarse en:</value>
   </data>
-  <data name="lbl_e" xml:space="preserve">
+  <data name="lbl_e.Text" xml:space="preserve">
     <value>Cuando me gradúe</value>
   </data>
-  <data name="lbl_Header" xml:space="preserve">
+  <data name="lbl_Header.Text" xml:space="preserve">
     <value>Bienvenido a MSCI: 3300</value>
   </data>
-  <data name="lbl_Header2" xml:space="preserve">
+  <data name="lbl_Header2.Text" xml:space="preserve">
     <value>Diseño y Desarrollo de Software</value>
   </data>
-  <data name="cb_f" xml:space="preserve">
+  <data name="cb_f.Text" xml:space="preserve">
     <value>femenino</value>
   </data>
-  <data name="cb_m" xml:space="preserve">
+  <data name="cb_m.Text" xml:space="preserve">
     <value>masculino</value>
   </data>
-  <data name="btn_1" xml:space="preserve">
+  <data name="btn_1.Text" xml:space="preserve">
     <value>presentar</value>
   </data>
-  <data name="lbl_1" xml:space="preserve">
+  <data name="lbl_1.Text" xml:space="preserve">
     <value>¡Hola,</value>
   </data>
-  <data name="lbl_3" xml:space="preserve">
+  <data name="lbl_3.Text" xml:space="preserve">
     <value>Espero que tengas un gran día cuando se gradúe en</value>
   </data>
-  <data name="lbl_4" xml:space="preserve">
+  <data name="lbl_4.Text" xml:space="preserve">
     <value>Te deseo lo mejor en su carrera después de la graduación. Espero que gane</value>
   </data>
-  <data name="lbl_5" xml:space="preserve">
+  <data name="lbl_5.Text" xml:space="preserve">
     <value>como un salario en su primer trabajo!</value>
   </data>
-  <data name="lbl_6" xml:space="preserve">
+  <data name="lbl_6.Text" xml:space="preserve">
     <value>Por favor, visite conmigo en</value>
   </data>
-  <data name="tb_2" xml:space="preserve">
+  <data name="tb_2.Text" xml:space="preserve">
     <value>Introduzca Salario</value>
   </data>
-  <data name="rfv_1" xml:space="preserve">
+  <data name="rfv_1.Text" xml:space="preserve">
     <value>Introduzca su nombre</value>
   </data>
-  <data name="rfv_2" xml:space="preserve">
+  <data name="rfv_2.Text" xml:space="preserve">
     <value>Introduzca su salario deseado</value>
   </data>
 </root>

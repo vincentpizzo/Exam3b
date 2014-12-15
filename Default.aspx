@@ -17,17 +17,17 @@
         <br />
         <asp:Label ID="lbl_a" runat="server" Text="Please choose your language:" meta:resourceKey="lbl_a"></asp:Label>
         <br />
-        <asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem>English</asp:ListItem>
-            <asp:ListItem>Arabic</asp:ListItem>
-            <asp:ListItem>Chinese</asp:ListItem>
-            <asp:ListItem>Spanish</asp:ListItem>
+        <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
+            <asp:ListItem Value="en">English</asp:ListItem>
+            <asp:ListItem Value="ar">Arabic</asp:ListItem>
+            <asp:ListItem Value="zh">Chinese</asp:ListItem>
+            <asp:ListItem Value="es">Spanish</asp:ListItem>
         </asp:DropDownList>
         <br />
         <br />
         <asp:Label ID="lbl_b" runat="server" Text="My name is:" meta:resourceKey="lbl_b"></asp:Label>
         <asp:TextBox ID="tb_1" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator class="validationError" ID="rfv_1" runat="server" Text="Please enter your name" meta:resourceKey="rfv_1"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator class="validationError" ID="rfv_1" runat="server" Text="Please enter your name" meta:resourceKey="rfv_1" ControlToValidate="tb_1"></asp:RequiredFieldValidator>
         <br />
         <asp:Label ID="lbl_c" runat="server" Text="I am:" meta:resourceKey="lbl_c"></asp:Label>
 &nbsp;<asp:CheckBox ID="cb_m" runat="server" Text="Male" meta:resourceKey="cb_m"/>
@@ -39,7 +39,7 @@
         <br />
         <asp:Label ID="lbl_e" runat="server" Text="When I graduate, I hope to earn" meta:resourceKey="lbl_e"></asp:Label>
         <asp:TextBox ID="tb_2" runat="server" meta:resourceKey="tb_2"></asp:TextBox>
-        <asp:RequiredFieldValidator class="validationError" ID="rfv_2" runat="server" Text="Please enter your desired salary" meta:resourceKey="rfv_2"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator class="validationError" ID="rfv_2" runat="server" Text="Please enter your desired salary" meta:resourceKey="rfv_2" ControlToValidate="tb_2"></asp:RequiredFieldValidator>
         <br />
         <asp:Button ID="btn_1" runat="server" Text="Submit" meta:resourceKey="btn_1"/>
         <br />
@@ -59,7 +59,7 @@
         <asp:Label ID="lbl_5" runat="server" Text="as a salary in your first job! " meta:resourceKey="lbl_5"></asp:Label>
         <br />
         <asp:Label ID="lbl_6" runat="server" Text="Please visit me on " meta:resourceKey="lbl_6"></asp:Label>
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="github.com/vincentpizzo">Github</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="http://github.com/vincentpizzo">Github</asp:HyperLink>
         <br />
         <br />
         <asp:Button ID="btn_2" runat="server" Height="24px" Text="Reset" meta:resourceKey="btn_2"/>

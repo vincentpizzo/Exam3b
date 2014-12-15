@@ -117,58 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lbl_a" xml:space="preserve">
+  <data name="lbl_a.Text" xml:space="preserve">
     <value>الرجاء اختيار لغتك:</value>
   </data>
-  <data name="lbl_b" xml:space="preserve">
+  <data name="lbl_b.Text" xml:space="preserve">
     <value>اسمي هو:</value>
   </data>
-  <data name="lbl_c" xml:space="preserve">
+  <data name="lbl_c.Text" xml:space="preserve">
     <value>أنا:</value>
   </data>
-  <data name="lbl_d" xml:space="preserve">
+  <data name="lbl_d.Text" xml:space="preserve">
     <value>أخطط لتخريج على:</value>
   </data>
-  <data name="lbl_e" xml:space="preserve">
+  <data name="lbl_e.Text" xml:space="preserve">
     <value>عندما تخرجي</value>
   </data>
-  <data name="lbl_Header" xml:space="preserve">
+  <data name="lbl_Header.Text" xml:space="preserve">
     <value>مرحبا بكم في MSCI: 3300</value>
   </data>
-  <data name="lbl_Header2" xml:space="preserve">
+  <data name="lbl_Header2.Text" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>
   </data>
-  <data name="cb_f" xml:space="preserve">
+  <data name="cb_f.Text" xml:space="preserve">
     <value>أنثى</value>
   </data>
-  <data name="cb_m" xml:space="preserve">
+  <data name="cb_m.Text" xml:space="preserve">
     <value>ذكر</value>
   </data>
-  <data name="btn_1" xml:space="preserve">
+  <data name="btn_1.Text" xml:space="preserve">
     <value>عرض</value>
   </data>
-  <data name="lbl_1" xml:space="preserve">
+  <data name="lbl_1.Text" xml:space="preserve">
     <value>مرحبا</value>
   </data>
-  <data name="lbl_3" xml:space="preserve">
+  <data name="lbl_3.Text" xml:space="preserve">
     <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
   </data>
-  <data name="lbl_4" xml:space="preserve">
+  <data name="lbl_4.Text" xml:space="preserve">
     <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
   </data>
-  <data name="lbl_5" xml:space="preserve">
+  <data name="lbl_5.Text" xml:space="preserve">
     <value>كما راتبا في أول وظيفة الخاص بك!</value>
   </data>
-  <data name="lbl_6" xml:space="preserve">
+  <data name="lbl_6.Text" xml:space="preserve">
     <value>يرجى زيارة لي على</value>
   </data>
-  <data name="tb_2" xml:space="preserve">
+  <data name="tb_2.Text" xml:space="preserve">
     <value>أدخل الراتب</value>
   </data>
-  <data name="rfv_1" xml:space="preserve">
+  <data name="rfv_1.Text" xml:space="preserve">
     <value>من فضلك ادخل اسمك</value>
   </data>
-  <data name="rfv_2" xml:space="preserve">
+  <data name="rfv_2.Text" xml:space="preserve">
     <value>من فضلك ادخل راتبك المطلوب</value>
   </data>
 </root>

@@ -1,22 +1,16 @@
 ﻿Imports System.Threading
 Imports System.Globalization
-
-
 Partial Class _Default
     Inherits System.Web.UI.Page
 
     Protected Overrides Sub InitializeCulture()
-        Dim language As String = Request("Language1")
+        Dim lang As String = Request("Language1")
 
-        If language IsNot Nothing Or language <> "" Then
-            Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
-            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(language)
+        If lang IsNot Nothing Or lang <> "" Then
+            Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang)
         End If
     End Sub
-
-
-
-
     Protected Sub button_submit_Click(sender As Object, e As EventArgs) Handles btn_1.Click
 
 
@@ -89,7 +83,7 @@ Partial Class _Default
     Protected Sub button_restart_Click(sender As Object, e As EventArgs) Handles btn_2.Click
         'Display the inputs
         lbl_a.Visible = True
-        DropDownList1.Visible = True
+        Language1.Visible = True
         lbl_b.Visible = True
         tb_1.Visible = True
         lbl_c.Visible = True
