@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl_a" xml:space="preserve">
-    <value>Please choose your language:</value>
+    <value>الرجاء اختيار لغتك:</value>
   </data>
   <data name="lbl_b" xml:space="preserve">
-    <value>My name is:</value>
+    <value>اسمي هو:</value>
   </data>
   <data name="lbl_c" xml:space="preserve">
-    <value>I am:</value>
+    <value>أنا:</value>
   </data>
   <data name="lbl_d" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>أخطط لتخريج على:</value>
   </data>
   <data name="lbl_e" xml:space="preserve">
-    <value>When I graduate</value>
+    <value>عندما تخرجي</value>
   </data>
   <data name="lbl_Header" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>مرحبا بكم في MSCI: 3300</value>
   </data>
   <data name="lbl_Header2" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>تصميم وتطوير البرمجيات</value>
   </data>
   <data name="cb_f" xml:space="preserve">
-    <value>Female</value>
+    <value>أنثى</value>
   </data>
   <data name="cb_m" xml:space="preserve">
-    <value>Male</value>
+    <value>ذكر</value>
   </data>
   <data name="btn_1" xml:space="preserve">
-    <value>Submit</value>
+    <value>عرض</value>
   </data>
   <data name="lbl_1" xml:space="preserve">
-    <value>Hello,</value>
+    <value>مرحبا</value>
   </data>
   <data name="lbl_3" xml:space="preserve">
-    <value>I hope you have a great day when you graduate on </value>
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
   </data>
   <data name="lbl_4" xml:space="preserve">
-    <value>I wish you well in your career after graduation. I hope you earn </value>
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
   </data>
   <data name="lbl_5" xml:space="preserve">
-    <value>as a salary in your first job!</value>
+    <value>كما راتبا في أول وظيفة الخاص بك!</value>
   </data>
   <data name="lbl_6" xml:space="preserve">
-    <value>Please visit me on </value>
+    <value>يرجى زيارة لي على</value>
   </data>
   <data name="tb_2" xml:space="preserve">
-    <value>Enter Salary</value>
+    <value>أدخل الراتب</value>
   </data>
   <data name="rfv_1" xml:space="preserve">
-    <value>Please enter your name</value>
+    <value>من فضلك ادخل اسمك</value>
   </data>
   <data name="rfv_2" xml:space="preserve">
-    <value>Please enter your desired salary</value>
+    <value>من فضلك ادخل راتبك المطلوب</value>
   </data>
 </root>

@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl_a" xml:space="preserve">
-    <value>Please choose your language:</value>
+    <value>Por favor, elige tu idioma:</value>
   </data>
   <data name="lbl_b" xml:space="preserve">
-    <value>My name is:</value>
+    <value>Mi nombre es:</value>
   </data>
   <data name="lbl_c" xml:space="preserve">
-    <value>I am:</value>
+    <value>Yo soy:</value>
   </data>
   <data name="lbl_d" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>Tengo la intención de graduarse en:</value>
   </data>
   <data name="lbl_e" xml:space="preserve">
-    <value>When I graduate</value>
+    <value>Cuando me gradúe</value>
   </data>
   <data name="lbl_Header" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>Bienvenido a MSCI: 3300</value>
   </data>
   <data name="lbl_Header2" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>Diseño y Desarrollo de Software</value>
   </data>
   <data name="cb_f" xml:space="preserve">
-    <value>Female</value>
+    <value>femenino</value>
   </data>
   <data name="cb_m" xml:space="preserve">
-    <value>Male</value>
+    <value>masculino</value>
   </data>
   <data name="btn_1" xml:space="preserve">
-    <value>Submit</value>
+    <value>presentar</value>
   </data>
   <data name="lbl_1" xml:space="preserve">
-    <value>Hello,</value>
+    <value>¡Hola,</value>
   </data>
   <data name="lbl_3" xml:space="preserve">
-    <value>I hope you have a great day when you graduate on </value>
+    <value>Espero que tengas un gran día cuando se gradúe en</value>
   </data>
   <data name="lbl_4" xml:space="preserve">
-    <value>I wish you well in your career after graduation. I hope you earn </value>
+    <value>Te deseo lo mejor en su carrera después de la graduación. Espero que gane</value>
   </data>
   <data name="lbl_5" xml:space="preserve">
-    <value>as a salary in your first job!</value>
+    <value>como un salario en su primer trabajo!</value>
   </data>
   <data name="lbl_6" xml:space="preserve">
-    <value>Please visit me on </value>
+    <value>Por favor, visite conmigo en</value>
   </data>
   <data name="tb_2" xml:space="preserve">
-    <value>Enter Salary</value>
+    <value>Introduzca Salario</value>
   </data>
   <data name="rfv_1" xml:space="preserve">
-    <value>Please enter your name</value>
+    <value>Introduzca su nombre</value>
   </data>
   <data name="rfv_2" xml:space="preserve">
-    <value>Please enter your desired salary</value>
+    <value>Introduzca su salario deseado</value>
   </data>
 </root>

@@ -118,57 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl_a" xml:space="preserve">
-    <value>Please choose your language:</value>
+    <value>請選擇您的語言：</value>
   </data>
   <data name="lbl_b" xml:space="preserve">
-    <value>My name is:</value>
+    <value>我的名字是：</value>
   </data>
   <data name="lbl_c" xml:space="preserve">
-    <value>I am:</value>
+    <value>我：</value>
   </data>
   <data name="lbl_d" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>我打算畢業的：</value>
   </data>
   <data name="lbl_e" xml:space="preserve">
-    <value>When I graduate</value>
+    <value>當我畢業</value>
   </data>
   <data name="lbl_Header" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>歡迎來到MSCI：3300</value>
   </data>
   <data name="lbl_Header2" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>軟件設計與開發</value>
   </data>
   <data name="cb_f" xml:space="preserve">
-    <value>Female</value>
+    <value>女</value>
   </data>
   <data name="cb_m" xml:space="preserve">
-    <value>Male</value>
+    <value>男</value>
   </data>
   <data name="btn_1" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
   </data>
   <data name="lbl_1" xml:space="preserve">
-    <value>Hello,</value>
+    <value>您好，</value>
   </data>
   <data name="lbl_3" xml:space="preserve">
-    <value>I hope you have a great day when you graduate on </value>
+    <value>我希望你有一個偉大的日子，當你畢業的</value>
   </data>
   <data name="lbl_4" xml:space="preserve">
-    <value>I wish you well in your career after graduation. I hope you earn </value>
+    <value>祝你順利畢業後，你的職業生涯。我希望你賺</value>
   </data>
   <data name="lbl_5" xml:space="preserve">
-    <value>as a salary in your first job!</value>
+    <value>在你的第一份工作的薪水！</value>
   </data>
   <data name="lbl_6" xml:space="preserve">
-    <value>Please visit me on </value>
+    <value>請訪問我的</value>
   </data>
   <data name="tb_2" xml:space="preserve">
-    <value>Enter Salary</value>
+    <value>進入工資</value>
   </data>
   <data name="rfv_1" xml:space="preserve">
-    <value>Please enter your name</value>
+    <value>請輸入您的姓名</value>
   </data>
   <data name="rfv_2" xml:space="preserve">
-    <value>Please enter your desired salary</value>
+    <value>請輸入您想要的薪水</value>
   </data>
 </root>

@@ -5,8 +5,8 @@ Imports System.Globalization
 Partial Class _Default
     Inherits System.Web.UI.Page
 
-    Protected Sub Language()
-        Dim language As String = Request("dd_languages")
+    Protected Overrides Sub InitializeCulture()
+        Dim language As String = Request("Language1")
 
         If language IsNot Nothing Or language <> "" Then
             Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
@@ -54,8 +54,8 @@ Partial Class _Default
         lbl_b.Visible = False
         tb_1.Visible = False
         lbl_c.Visible = False
-        rdo_m.Visible = False
-        rdo_f.Visible = False
+        cb_m.Visible = False
+        cb_f.Visible = False
         lbl_d.Visible = False
         Calendar1.Visible = False
         lbl_e.Visible = False
@@ -93,8 +93,8 @@ Partial Class _Default
         lbl_b.Visible = True
         tb_1.Visible = True
         lbl_c.Visible = True
-        rdo_m.Visible = True
-        rdo_f.Visible = True
+        cb_m.Visible = True
+        cb_f.Visible = True
         lbl_d.Visible = True
         Calendar1.Visible = True
         lbl_e.Visible = True
@@ -119,8 +119,8 @@ Partial Class _Default
         ' clear all input fields
         tb_1.Text = String.Empty
         tb_2.Text = String.Empty
-        rdo_m.Checked = False
-        rdo_f.Checked = False
+        cb_m.Checked = False
+        cb_f.Checked = False
         Calendar1.SelectedDate = Today
         Calendar1.VisibleDate = Today
 
