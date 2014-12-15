@@ -10,73 +10,57 @@
 <body>
     <form id="form1" runat="server">
     
-        <h1>
-            <asp:Label ID="lbl_Header" runat="server" meta:resourceKey="lbl_Header"></asp:Label>
-        </h1>
-        <h2>
-            <asp:Label ID="lbl_Header2" runat="server" meta:resourceKey="lbl_Header2"></asp:Label>
-        </h2>
-        <p>&nbsp;</p>
-        <p>
-            <asp:Label ID="lbl_LangSelect" runat="server" meta:resourceKey="lbl_LangSelect"></asp:Label>
-        </p>
-        <div class="radio">  
-        <p>
-                
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>Arabic</asp:ListItem>
-                    <asp:ListItem>Chinese</asp:ListItem>
-                    <asp:ListItem>English</asp:ListItem>
-                    <asp:ListItem>Spanish</asp:ListItem>
-                </asp:DropDownList>
-                
-        </p></div>
-        <div class="stuff"><p>
-            <asp:Label ID="lbl_MyNameIs" runat="server" meta:resourceKey="lbl_MyNameIs"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RFV1" runat="server" ErrorMessage="Please enter your name" CssClass="validationError" ControlToValidate="tb_Name"></asp:RequiredFieldValidator>
-        </p>
-        <p>
-            <asp:Label ID="lbl_IAm" runat="server" meta:resourceKey="lbl_IAm"></asp:Label>
-            <asp:RadioButton ID="rdo_Male" runat="server" meta:resourceKey="rdo_Male" />
-            <asp:RadioButton ID="rdo_Female" runat="server" meta:resourceKey="rdo_Female"/>
-        </p>
-        <p>
-            <asp:Label ID="lbl_Grad" runat="server" meta:resourceKey="lbl_Grad"></asp:Label>
-            </p>
-        <p>
-            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
-        </p>
-        <p>
-            <asp:Label ID="lbl_Graduate" runat="server" meta:resourceKey="lbl_Graduate"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Salary" runat="server">Enter Salary</asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter your desired salary" CssClass="validationError" ControlToValidate="tb_Salary"></asp:RequiredFieldValidator>
-&nbsp;&nbsp;&nbsp;&nbsp; </p>
-        <p>
-            <asp:Button ID="btn_Submit" runat="server" meta:resourceKey="btn_Submit"/>
-        </p>
-
-    </div>
-    
-    <asp:Label ID="lbl_Hello" runat="server" meta:resourceKey="lbl_Hello"></asp:Label>
-            &nbsp;<asp:Label ID="lbl_Name" runat="server"></asp:Label>
-            <asp:Label ID="lbl_Input" runat="server"></asp:Label>
-            <asp:Label ID="lbl_User" runat="server"></asp:Label>
-
-            <asp:Label ID="lbl_Date" runat="server" meta:resourceKey="lbl_Date" Text="lbl_Date"></asp:Label>
-            <asp:Label ID="lbl_Calendar" runat="server"></asp:Label>
-
-            <asp:Label ID="lbl_Salary" runat="server" meta:resourceKey="lbl_Salary"></asp:Label>
-            <asp:Label ID="lbl_Money" runat="server"></asp:Label>
-            <asp:Label ID="lbl_Out" runat="server" meta:resourceKey="lbl_Out"></asp:Label>
-
-            <asp:Label ID="lbl_Link" runat="server" meta:resourceKey="lbl_Link"></asp:Label>
-            <asp:LinkButton ID="btn_Link" runat="server">Github</asp:LinkButton>
-
+        <asp:Label ID="lbl_Header" runat="server" Text="Welcome to MSCI:3300"></asp:Label>
+        <br />
+        <asp:Label ID="lbl_Header2" runat="server" Text="Software Design and Development"></asp:Label>
         <br />
         <br />
+        <asp:Label ID="lbl_a" runat="server" Text="Please choose your language:"></asp:Label>
         <br />
-        <asp:Button ID="btn_Reset" runat="server" meta:resourceKey="btn_reset" Text="Reset Page"/>
+        <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>English</asp:ListItem>
+            <asp:ListItem>Arabic</asp:ListItem>
+            <asp:ListItem>Chinese</asp:ListItem>
+            <asp:ListItem>Spanish</asp:ListItem>
+        </asp:DropDownList>
+        <br />
+        <br />
+        <asp:Label ID="lbl_b" runat="server" Text="My name is:"></asp:Label>
+        <asp:TextBox ID="tb_1" runat="server"></asp:TextBox>
+        <br />
+        <asp:Label ID="lbl_c" runat="server" Text="I am:"></asp:Label>
+&nbsp;<asp:CheckBox ID="cb_m" runat="server" Text="Male" />
+&nbsp;<asp:CheckBox ID="cb_f" runat="server" Text="Female" />
+        <br />
+        <br />
+        <asp:Label ID="lbl_d" runat="server" Text="I plan to graduate on:"></asp:Label>
+        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+        <br />
+        <asp:Label ID="lbl_e" runat="server" Text="When I graduate, I hope to earn"></asp:Label>
+        <asp:TextBox ID="tb_2" runat="server">Enter Salary</asp:TextBox>
+        <br />
+        <asp:Button ID="btn_1" runat="server" Text="Submit" />
+        <br />
+        <hr />
+        <asp:Label ID="lbl_1" runat="server" Text="Hello "></asp:Label>
+        <asp:Label ID="lbl_2" runat="server"></asp:Label>
+&nbsp;<asp:Label ID="lbl_Name" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Label ID="lbl_3" runat="server" Text="I hope you have a great day when you graduate on "></asp:Label>
+        <asp:Label ID="lbl_Date" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Label ID="lbl_4" runat="server" Text="I wish you well in your career after graduation. I hope you earn "></asp:Label>
+        <asp:Label ID="lbl_Money" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="lbl_5" runat="server" Text="as a salary in your first job! "></asp:Label>
+        <br />
+        <asp:Label ID="lbl_6" runat="server" Text="Please visit me on "></asp:Label>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="github.com/vincentpizzo">Github</asp:HyperLink>
+        <br />
+        <br />
+        <asp:Button ID="btn_2" runat="server" Height="24px" Text="Reset" />
 
         </form>
 </body>

@@ -17,105 +17,110 @@ Partial Class _Default
 
 
 
-    Protected Sub button_submit_Click(sender As Object, e As EventArgs) Handles btn_Submit.Click
+    Protected Sub button_submit_Click(sender As Object, e As EventArgs) Handles btn_1.Click
 
 
-        If rdo_Male.Checked Then
-            lbl_Name.Text = "Mr. "
+        If cb_m.Checked Then
+            lbl_2.Text = "Mr. "
+
+
+        ElseIf cb_f.Checked Then
+            lbl_2.Text = "Ms. "
         End If
+        lbl_Date.Text = Calendar1.SelectedDate.ToShortDateString()
 
-        If rdo_Female.Checked Then
-            lbl_Name.Text = "Ms. "
-        End If
-        lbl_Calendar.Text = Calendar1.SelectedDate.ToShortDateString()
-
-        Dim salary As Decimal = Val(tb_Salary.Text)
+        Dim salary As Decimal = Val(tb_2.Text)
         lbl_Money.Text = String.Format("{0:C}", salary)
 
-        lbl_Input.Text = StrConv(tb_Name.Text, VbStrConv.ProperCase)
+        lbl_Name.Text = StrConv(tb_1.Text, VbStrConv.ProperCase)
 
         ' show the output
-        lbl_Hello.Visible = True
+        lbl_Header.Visible = True
+        lbl_Header2.Visible = True
+        lbl_1.Visible = True
+        lbl_2.Visible = True
         lbl_Name.Visible = True
-        lbl_Name.Visible = True
+        lbl_3.Visible = True
         lbl_Date.Visible = True
-        lbl_Calendar.Visible = True
-        lbl_Salary.Visible = True
+        lbl_4.Visible = True
         lbl_Money.Visible = True
-        lbl_Out.Visible = True
-        lbl_Link.Visible = True
-        btn_Link.Visible = True
-        btn_Reset.Visible = True
+        lbl_5.Visible = True
+        lbl_6.Visible = True
+        HyperLink1.Visible = True
+        btn_2.Visible = True
 
         ' don't show the first page of stuff
-        tb_Name.Visible = False
-        rdo_Male.Visible = False
-        rdo_Female.Visible = False
+        lbl_a.Visible = False
+        lbl_b.Visible = False
+        tb_1.Visible = False
+        lbl_c.Visible = False
+        rdo_m.Visible = False
+        rdo_f.Visible = False
+        lbl_d.Visible = False
         Calendar1.Visible = False
-        tb_Salary.Visible = False
-        btn_Submit.Visible = False
+        lbl_e.Visible = False
+        tb_2.Visible = False
+        btn_1.Visible = False
 
     End Sub
-
-    Protected Sub GitHub_Click(sender As Object, e As EventArgs) Handles btn_Link.Click
-
-        Response.Redirect("https://github.com/vincentpizzo")
-
-    End Sub
-
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
 
         Calendar1.VisibleDate = Today
 
-        tb_Name.Focus()
+        tb_1.Focus()
 
-        lbl_Hello.Visible = False
+        lbl_1.Visible = False
+        lbl_2.Visible = False
         lbl_Name.Visible = False
-        lbl_User.Visible = False
+        lbl_3.Visible = False
         lbl_Date.Visible = False
-        lbl_Calendar.Visible = False
-        lbl_Salary.Visible = False
+        lbl_4.Visible = False
         lbl_Money.Visible = False
-        lbl_Out.Visible = False
-        lbl_Link.Visible = False
-        btn_Link.Visible = False
-        btn_Reset.Visible = False
+        lbl_5.Visible = False
+        lbl_6.Visible = False
+        HyperLink1.Visible = False
+        btn_2.Visible = False
 
 
 
     End Sub
 
-    Protected Sub button_restart_Click(sender As Object, e As EventArgs) Handles btn_Reset.Click
-
-        tb_Name.Visible = True
-        rdo_Male.Visible = True
-        rdo_Female.Visible = True
+    Protected Sub button_restart_Click(sender As Object, e As EventArgs) Handles btn_2.Click
+        'Display the inputs
+        lbl_a.Visible = True
+        DropDownList1.Visible = True
+        lbl_b.Visible = True
+        tb_1.Visible = True
+        lbl_c.Visible = True
+        rdo_m.Visible = True
+        rdo_f.Visible = True
+        lbl_d.Visible = True
         Calendar1.Visible = True
-        tb_Salary.Visible = True
-        btn_Submit.Visible = True
+        lbl_e.Visible = True
+        tb_2.Visible = True
+        btn_1.Visible = True
 
 
-
-
-        lbl_Hello.Visible = False
+        'Don't display the outputs
+        lbl_1.Visible = False
+        lbl_2.Visible = False
         lbl_Name.Visible = False
-        lbl_User.Visible = False
+        lbl_3.Visible = False
         lbl_Date.Visible = False
-        lbl_Calendar.Visible = False
-        lbl_Salary.Visible = False
+        lbl_4.Visible = False
         lbl_Money.Visible = False
-        lbl_Out.Visible = False
-        lbl_Link.Visible = False
-        btn_Link.Visible = False
-        btn_Reset.Visible = False
+        lbl_5.Visible = False
+        lbl_6.Visible = False
+        HyperLink1.Visible = False
+        btn_2.Visible = False
 
 
         ' clear all input fields
-        tb_Name.Text = String.Empty
-        tb_Salary.Text = String.Empty
-        rdo_Male.Checked = False
-        rdo_Female.Checked = False
+        tb_1.Text = String.Empty
+        tb_2.Text = String.Empty
+        rdo_m.Checked = False
+        rdo_f.Checked = False
         Calendar1.SelectedDate = Today
         Calendar1.VisibleDate = Today
 
