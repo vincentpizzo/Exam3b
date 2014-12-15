@@ -11,14 +11,14 @@
     <form id="form1" runat="server">
     
         <h1>
-            <asp:Label ID="lbl_Header" runat="server" Text="Welcome to MSCI:3300"></asp:Label>
+            <asp:Label ID="lbl_Header" runat="server" meta:resourceKey="lbl_Header"></asp:Label>
         </h1>
         <h2>
-            <asp:Label ID="lbl_Header2" runat="server" Text="Software Design and Development"></asp:Label>
+            <asp:Label ID="lbl_Header2" runat="server" meta:resourceKey="lbl_Header2"></asp:Label>
         </h2>
         <p>&nbsp;</p>
         <p>
-            <asp:Label ID="lbl_LangSelect" runat="server" Text="Please Select your Language"></asp:Label>
+            <asp:Label ID="lbl_LangSelect" runat="server" meta:resourceKey="lbl_LangSelect"></asp:Label>
         </p>
         <div class="radio">  
         <p>
@@ -32,28 +32,28 @@
                 
         </p></div>
         <div class="stuff"><p>
-            <asp:Label ID="lbl_MyNameIs" runat="server" Text="My Name is:"></asp:Label>
+            <asp:Label ID="lbl_MyNameIs" runat="server" meta:resourceKey="lbl_MyNameIs"></asp:Label>
 &nbsp;<asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RFV1" runat="server" ErrorMessage="Please enter your name" CssClass="validationError" ControlToValidate="tb_Name"></asp:RequiredFieldValidator>
         </p>
         <p>
-            <asp:Label ID="lbl_IAm" runat="server" Text="I am:"></asp:Label>
-            <asp:RadioButton ID="rdo_Male" runat="server" Text="Male" />
-            <asp:RadioButton ID="rdo_Female" runat="server" Text="Female" />
+            <asp:Label ID="lbl_IAm" runat="server" meta:resourceKey="lbl_IAm"></asp:Label>
+            <asp:RadioButton ID="rdo_Male" runat="server" meta:resourceKey="rdo_Male" />
+            <asp:RadioButton ID="rdo_Female" runat="server" meta:resourceKey="rdo_Female"/>
         </p>
         <p>
-            <asp:Label ID="lbl_Grad" runat="server" Text="I plan to graduate on:"></asp:Label>
+            <asp:Label ID="lbl_Grad" runat="server" meta:resourceKey="lbl_Grad"></asp:Label>
             </p>
         <p>
             <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         </p>
         <p>
-            <asp:Label ID="lbl_Graduate" runat="server" Text="When I graduate, I hope to make:"></asp:Label>
+            <asp:Label ID="lbl_Graduate" runat="server" meta:resourceKey="lbl_Graduate"></asp:Label>
 &nbsp;<asp:TextBox ID="tb_Salary" runat="server">Enter Salary</asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter your desired salary" CssClass="validationError" ControlToValidate="tb_Salary"></asp:RequiredFieldValidator>
 &nbsp;&nbsp;&nbsp;&nbsp; </p>
         <p>
-            <asp:Button ID="btn_Submit" runat="server" Text="Submit"/>
+            <asp:Button ID="btn_Submit" runat="server" meta:resourceKey="btn_Submit"/>
         </p>
 
     </div>
