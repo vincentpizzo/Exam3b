@@ -27,12 +27,12 @@ Partial Class _Default
         If rdo_Female.Checked Then
             lbl_Name.Text = "Ms. "
         End If
-        lbl_Calendar.Text = System.Web.UI.WebControls.Calendar.SelectedDate.ToShortDateString()
+        lbl_Calendar.Text = Calendar1.SelectedDate.ToShortDateString()
 
         Dim salary As Decimal = Val(tb_Salary.Text)
-        lbl_Salary.Text = String.Format("{0:C}", salary)
+        lbl_Money.Text = String.Format("{0:C}", salary)
 
-        lbl_User.Text = StrConv(tb_Name.Text, VbStrConv.ProperCase)
+        lbl_Input.Text = StrConv(tb_Name.Text, VbStrConv.ProperCase)
 
         ' show the output
         lbl_Hello.Visible = True
@@ -86,7 +86,7 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub button_restart_Click(sender As Object, e As EventArgs) Handles button_restart.Click
+    Protected Sub button_restart_Click(sender As Object, e As EventArgs) Handles btn_Reset.Click
 
         tb_Name.Visible = True
         rdo_Male.Visible = True

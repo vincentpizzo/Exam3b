@@ -118,54 +118,54 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btn_Reset" xml:space="preserve">
-    <value>Reset Page</value>
+    <value>重設頁面</value>
   </data>
   <data name="btn_Submit" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
   </data>
   <data name="lbl_Calendar" xml:space="preserve">
-    <value>I wish you well in your career after graduation.</value>
+    <value>祝你順利畢業後，你的職業生涯</value>
   </data>
   <data name="lbl_Grad" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>我打算畢業的：</value>
   </data>
   <data name="lbl_Graduate" xml:space="preserve">
-    <value>When I graduate, I hope to make:</value>
+    <value>當我畢業了，我希望製作</value>
   </data>
   <data name="lbl_Header" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>歡迎來到MSCI：3300</value>
   </data>
   <data name="lbl_Header2" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>軟件設計與開發</value>
   </data>
   <data name="lbl_Hello" xml:space="preserve">
-    <value>Hello, </value>
+    <value>您好，</value>
   </data>
   <data name="lbl_IAm" xml:space="preserve">
-    <value>I am:</value>
+    <value>我：</value>
   </data>
   <data name="lbl_LangSelect" xml:space="preserve">
-    <value>Please select your language:</value>
+    <value>請選擇您的語言：</value>
   </data>
   <data name="lbl_Link" xml:space="preserve">
-    <value>Please visit me at </value>
+    <value>請訪問我的</value>
   </data>
   <data name="lbl_MyNameIs" xml:space="preserve">
-    <value>My name is:</value>
+    <value>我的名字是：</value>
   </data>
   <data name="lbl_Out" xml:space="preserve">
-    <value>as a salary in your first job! </value>
+    <value>在你的第一份工作的薪水！</value>
   </data>
   <data name="lbl_Salary" xml:space="preserve">
-    <value>I hope you earn </value>
+    <value>我希望你賺</value>
   </data>
   <data name="lbl_User" xml:space="preserve">
-    <value>I hope you have a great day when you graduate on </value>
+    <value>我希望你有一個偉大的日子，當你畢業的</value>
   </data>
   <data name="rdo_Female" xml:space="preserve">
-    <value>Female</value>
+    <value>女</value>
   </data>
   <data name="rdo_Male" xml:space="preserve">
-    <value>Male</value>
+    <value>男</value>
   </data>
 </root>

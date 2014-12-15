@@ -9,9 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <h1>Welcome to MSCI:3300</h1>
-        <h2>Software Design and Development</h2>
+    
+        <h1>
+            <asp:Label ID="lbl_Header" runat="server" Text="Welcome to MSCI:3300"></asp:Label>
+        </h1>
+        <h2>
+            <asp:Label ID="lbl_Header2" runat="server" Text="Software Design and Development"></asp:Label>
+        </h2>
         <p>&nbsp;</p>
         <p>
             <asp:Label ID="lbl_LangSelect" runat="server" Text="Please Select your Language"></asp:Label>
@@ -37,9 +41,11 @@
             <asp:RadioButton ID="rdo_Male" runat="server" Text="Male" />
             <asp:RadioButton ID="rdo_Female" runat="server" Text="Female" />
         </p>
-        <p>I plan to graduate on:</p>
         <p>
-            <asp:Calendar ID="Calendar1" runat="server" align="center"></asp:Calendar>
+            <asp:Label ID="lbl_Grad" runat="server" Text="I plan to graduate on:"></asp:Label>
+            </p>
+        <p>
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         </p>
         <p>
             <asp:Label ID="lbl_Graduate" runat="server" Text="When I graduate, I hope to make:"></asp:Label>
@@ -47,13 +53,14 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter your desired salary" CssClass="validationError" ControlToValidate="tb_Salary"></asp:RequiredFieldValidator>
 &nbsp;&nbsp;&nbsp;&nbsp; </p>
         <p>
-            <asp:Button ID="btn_Submit" runat="server" Text="Submit" align="center"/>
+            <asp:Button ID="btn_Submit" runat="server" Text="Submit"/>
         </p>
 
     </div>
     
     <asp:Label ID="lbl_Hello" runat="server" meta:resourceKey="lbl_Hello"></asp:Label>
             &nbsp;<asp:Label ID="lbl_Name" runat="server"></asp:Label>
+            <asp:Label ID="lbl_Input" runat="server"></asp:Label>
             <asp:Label ID="lbl_User" runat="server"></asp:Label>
 
             <asp:Label ID="lbl_Date" runat="server" meta:resourceKey="lbl_Date" Text="lbl_Date"></asp:Label>
@@ -69,9 +76,8 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="btn_Reset" runat="server" meta:resourceKey="btn_reset" Text="Reset Page" align="center"/>
+        <asp:Button ID="btn_Reset" runat="server" meta:resourceKey="btn_reset" Text="Reset Page"/>
 
-        <asp:Label ID="lbl_Language" runat="server" meta:resourceKey="lbl_Language" ></asp:Label>
-    </form>
+        </form>
 </body>
 </html>
